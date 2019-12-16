@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+#DEB_MAKE_CHECK_TARGET = test_bitcoin
+#build/bitcoind::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bitcoin)
+
+DEB_INSTALL_EXAMPLES_pluscoind += debian/examples/*
+DEB_INSTALL_MANPAGES_pluscoind += debian/manpages/*
+
+%:
+	dh --with bash-completion $@
+
+override_dh_auto_build:
+	cd src; $(MAKE) -f makefile.unix pluscoind
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f pluscoin-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake pluscoin-qt.pro USE_QRCODE=1
+
+override_dh_auto_test:
+	cd src; $(MAKE) -f makefile.unix test_pluscoin
+	src/test_pluscoin
+
+# Ensure wrapper is set executable
+binary-post-install/pluscoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/pluscoind
+binary-post-install/pluscoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/pluscoin-qt

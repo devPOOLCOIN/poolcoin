@@ -1,0 +1,9 @@
+Building PlusCoin
+
+See doc/readme-qt.rst for instructions on building PlusCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of PlusCoin.
+
+See doc/build-*.txt for instructions on building pluscoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of PlusCoin.

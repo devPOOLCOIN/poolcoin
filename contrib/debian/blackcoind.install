@@ -1,0 +1,2 @@
+debian/bin/pluscoind usr/bin
+src/pluscoind usr/lib/pluscoin
