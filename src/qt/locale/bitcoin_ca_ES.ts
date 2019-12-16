@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About PlusCoin</source>
-        <translation>Sobre PlusCoin</translation>
+        <source>About PoolCoin</source>
+        <translation>Sobre PoolCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;PlusCoin&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;PlusCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;PoolCoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;PoolCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The PlusCoin developers</source>
+Copyright © 2014 The PoolCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The PlusCoin developers</translation>
+Copyright © 2014 The PoolCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your PlusCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de PlusCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your PoolCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de PoolCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a PlusCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça PlusCoin</translation>
+        <source>Sign a message to prove you own a PoolCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça PoolCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified PlusCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça PlusCoin especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified PoolCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça PoolCoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>PlusCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>PlusCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>PoolCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>PoolCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about PlusCoin</source>
-        <translation>Mostra informació sobre PlusCoin</translation>
+        <source>Show information about PoolCoin</source>
+        <translation>Mostra informació sobre PoolCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a PlusCoin address</source>
-        <translation>Enviar monedes a una adreça PlusCoin</translation>
+        <source>Send coins to a PoolCoin address</source>
+        <translation>Enviar monedes a una adreça PoolCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for PlusCoin</source>
-        <translation>Modificar les opcions de configuració per a PlusCoin</translation>
+        <source>Modify configuration options for PoolCoin</source>
+        <translation>Modificar les opcions de configuració per a PoolCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>PlusCoin</source>
-        <translation>PlusCoin</translation>
+        <source>PoolCoin</source>
+        <translation>PoolCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About PlusCoin</source>
-        <translation>&amp;Sobre PlusCoin</translation>
+        <source>&amp;About PoolCoin</source>
+        <translation>&amp;Sobre PoolCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>PlusCoin client</source>
-        <translation>Client PlusCoin</translation>
+        <source>PoolCoin client</source>
+        <translation>Client PoolCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to PlusCoin network</source>
-        <translation><numerusform>%n conexió activa a la xarxa PlusCoin</numerusform><numerusform>%n conexions actives a la xarxa PlusCoin</numerusform></translation>
+        <source>%n active connection(s) to PoolCoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa PoolCoin</numerusform><numerusform>%n conexions actives a la xarxa PoolCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -596,8 +596,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid PlusCoin address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça PlusCoin no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid PoolCoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça PoolCoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -719,8 +719,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. PlusCoin can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. PlusCoin ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. PoolCoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. PoolCoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -995,8 +995,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid PlusCoin address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça PlusCoin vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid PoolCoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça PoolCoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1014,8 +1014,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>PlusCoin-Qt</source>
-        <translation>PlusCoin-Qt</translation>
+        <source>PoolCoin-Qt</source>
+        <translation>PoolCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1087,13 +1087,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start PlusCoin after logging in to the system.</source>
-        <translation>Inicia automàticament PlusCoin després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start PoolCoin after logging in to the system.</source>
+        <translation>Inicia automàticament PoolCoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start PlusCoin on system login</source>
-        <translation>&amp;Iniciar PlusCoin amb l&apos;inici de sessió</translation>
+        <source>&amp;Start PoolCoin on system login</source>
+        <translation>&amp;Iniciar PoolCoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1102,8 +1102,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the PlusCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client PlusCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the PoolCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client PoolCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1132,7 +1132,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the PlusCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the PoolCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1177,8 +1177,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting PlusCoin.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar PlusCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PoolCoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar PoolCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1234,8 +1234,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting PlusCoin.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar PlusCoin.</translation>
+        <source>This setting will take effect after restarting PoolCoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar PoolCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1253,8 +1253,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PlusCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa PlusCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PoolCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa PoolCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1327,7 +1327,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start pluscoin: click-to-pay handler</source>
+        <source>Cannot start poolcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1497,8 +1497,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the PlusCoin-Qt help message to get a list with possible PlusCoin command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de PlusCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres PlusCoin.</translation>
+        <source>Show the PoolCoin-Qt help message to get a list with possible PoolCoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de PoolCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres PoolCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1517,13 +1517,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>PlusCoin - Debug window</source>
-        <translation>PlusCoin - Finestra Depuració</translation>
+        <source>PoolCoin - Debug window</source>
+        <translation>PoolCoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>PlusCoin Core</source>
-        <translation>Nucli PlusCoin</translation>
+        <source>PoolCoin Core</source>
+        <translation>Nucli PoolCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1532,8 +1532,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the PlusCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració PlusCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the PoolCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració PoolCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1542,8 +1542,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the PlusCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de PlusCoin.</translation>
+        <source>Welcome to the PoolCoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de PoolCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1713,8 +1713,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a PlusCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça PlusCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a PoolCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça PoolCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1808,8 +1808,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid PlusCoin address</source>
-        <translation>ADVERTÈNCIA: Direcció PlusCoin invàlida</translation>
+        <source>WARNING: Invalid PoolCoin address</source>
+        <translation>ADVERTÈNCIA: Direcció PoolCoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1882,8 +1882,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a PlusCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça PlusCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a PoolCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça PoolCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1943,8 +1943,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this PlusCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça PlusCoin</translation>
+        <source>Sign the message to prove you own this PoolCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça PoolCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1975,8 +1975,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified PlusCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça PlusCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified PoolCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça PoolCoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1986,8 +1986,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a PlusCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça PlusCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a PoolCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça PoolCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1996,8 +1996,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter PlusCoin signature</source>
-        <translation>Introduïu la signatura PlusCoin</translation>
+        <source>Enter PoolCoin signature</source>
+        <translation>Introduïu la signatura PoolCoin</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2575,8 +2575,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>PlusCoin version</source>
-        <translation>versió PlusCoin</translation>
+        <source>PoolCoin version</source>
+        <translation>versió PoolCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2585,8 +2585,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or pluscoind</source>
-        <translation>Enviar comandes a -server o pluscoind</translation>
+        <source>Send command to -server or poolcoind</source>
+        <translation>Enviar comandes a -server o poolcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2605,13 +2605,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: pluscoin.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: pluscoin.conf)</translation>
+        <source>Specify configuration file (default: poolcoin.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: poolcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: pluscoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: pluscoind.pid)</translation>
+        <source>Specify pid file (default: poolcoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: poolcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2628,13 +2628,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pluscoinrpc
+rpcuser=poolcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;PlusCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;PoolCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2735,8 +2735,8 @@ for example: alertnotify=echo %%s | mail -s &quot;PlusCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PlusCoin will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni PlusCoin no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PoolCoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni PoolCoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3031,7 +3031,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. PlusCoin is shutting down.</source>
+        <source>Initialization sanity check failed. PoolCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3086,13 +3086,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of PlusCoin</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de PlusCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PoolCoin</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de PoolCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart PlusCoin to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar PlusCoin per completar</translation>
+        <source>Wallet needed to be rewritten: restart PoolCoin to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar PoolCoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3151,8 +3151,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. PlusCoin is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. PlusCoin probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. PoolCoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. PoolCoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3181,7 +3181,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. PlusCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. PoolCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

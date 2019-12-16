@@ -7,23 +7,23 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>PlusCoin-Qt</string>
+	<string>PoolCoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>PlusCoin-Qt</string>
+	<string>PoolCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.pluscoin.PlusCoin-Qt</string>
+	<string>co.poolcoin.PoolCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.pluscoin.PlusCoinPayment</string>
+            <string>co.poolcoin.PoolCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>pluscoin</string>
+              <string>poolcoin</string>
             </array>
           </dict>
         </array>

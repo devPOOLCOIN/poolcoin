@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About PlusCoin</source>
-        <translation>O PlusCoin</translation>
+        <source>About PoolCoin</source>
+        <translation>O PoolCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;PlusCoin&lt;/b&gt; version</source>
-        <translation>Verzia &lt;b&gt;PlusCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;PoolCoin&lt;/b&gt; version</source>
+        <translation>Verzia &lt;b&gt;PoolCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The PlusCoin developers</source>
+Copyright © 2014 The PoolCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The PlusCoin developers</translation>
+Copyright © 2014 The PoolCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your PlusCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše PlusCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your PoolCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše PoolCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a PlusCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto PlusCoin adresu</translation>
+        <source>Sign a message to prove you own a PoolCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto PoolCoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified PlusCoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou PlusCoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified PoolCoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou PoolCoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>PlusCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>PlusCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>PoolCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>PoolCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about PlusCoin</source>
-        <translation>Zobraziť informácie o PlusCoin</translation>
+        <source>Show information about PoolCoin</source>
+        <translation>Zobraziť informácie o PoolCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a PlusCoin address</source>
-        <translation>Poslať mince na PlusCoin adresu</translation>
+        <source>Send coins to a PoolCoin address</source>
+        <translation>Poslať mince na PoolCoin adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for PlusCoin</source>
-        <translation>Upraviť možnosti konfigurácie pre PlusCoin</translation>
+        <source>Modify configuration options for PoolCoin</source>
+        <translation>Upraviť možnosti konfigurácie pre PoolCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>PlusCoin</source>
-        <translation>PlusCoin</translation>
+        <source>PoolCoin</source>
+        <translation>PoolCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About PlusCoin</source>
-        <translation>&amp;O PlusCoin</translation>
+        <source>&amp;About PoolCoin</source>
+        <translation>&amp;O PoolCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>PlusCoin client</source>
-        <translation>PlusCoin klient</translation>
+        <source>PoolCoin client</source>
+        <translation>PoolCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to PlusCoin network</source>
-        <translation><numerusform>%n aktívne spojenie s PlusCoin sieťov</numerusform><numerusform>%n aktívnych spojení s PlusCoin sieťov</numerusform><numerusform>%n aktívnych spojení s PlusCoin sieťou</numerusform></translation>
+        <source>%n active connection(s) to PoolCoin network</source>
+        <translation><numerusform>%n aktívne spojenie s PoolCoin sieťov</numerusform><numerusform>%n aktívnych spojení s PoolCoin sieťov</numerusform><numerusform>%n aktívnych spojení s PoolCoin sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -604,8 +604,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid PlusCoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou PlusCoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid PoolCoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou PoolCoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -727,8 +727,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. PlusCoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. PlusCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. PoolCoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. PoolCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1003,8 +1003,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid PlusCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou PlusCoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid PoolCoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou PoolCoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1022,8 +1022,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>PlusCoin-Qt</source>
-        <translation>PlusCoin-Qt</translation>
+        <source>PoolCoin-Qt</source>
+        <translation>PoolCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1095,13 +1095,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start PlusCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť PlusCoin po prihlásení sa do systému.</translation>
+        <source>Automatically start PoolCoin after logging in to the system.</source>
+        <translation>Automaticky spustiť PoolCoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start PlusCoin on system login</source>
-        <translation>&amp;Spustiť PlusCoin pri prihlásení do systému</translation>
+        <source>&amp;Start PoolCoin on system login</source>
+        <translation>&amp;Spustiť PoolCoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1110,8 +1110,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the PlusCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta PlusCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the PoolCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta PoolCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1140,8 +1140,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the PlusCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť k sieti PlusCoin cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the PoolCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojiť k sieti PoolCoin cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1185,8 +1185,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting PlusCoin.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní PlusCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PoolCoin.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní PoolCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1242,8 +1242,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting PlusCoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní PlusCoin.</translation>
+        <source>This setting will take effect after restarting PoolCoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní PoolCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1261,8 +1261,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PlusCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou PlusCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PoolCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou PoolCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1335,8 +1335,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start pluscoin: click-to-pay handler</source>
-        <translation>PlusCoin sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start poolcoin: click-to-pay handler</source>
+        <translation>PoolCoin sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1505,8 +1505,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the PlusCoin-Qt help message to get a list with possible PlusCoin command-line options.</source>
-        <translation>Zobraziť PlusCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku PlusCoin.</translation>
+        <source>Show the PoolCoin-Qt help message to get a list with possible PoolCoin command-line options.</source>
+        <translation>Zobraziť PoolCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku PoolCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1525,13 +1525,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>PlusCoin - Debug window</source>
-        <translation>PlusCoin - Ladiace okno</translation>
+        <source>PoolCoin - Debug window</source>
+        <translation>PoolCoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>PlusCoin Core</source>
-        <translation>Jadro PlusCoin</translation>
+        <source>PoolCoin Core</source>
+        <translation>Jadro PoolCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1540,8 +1540,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the PlusCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Pluscoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the PoolCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte Poolcoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1550,8 +1550,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the PlusCoin RPC console.</source>
-        <translation>Vitajte v konzole Pluscoin RPC.</translation>
+        <source>Welcome to the PoolCoin RPC console.</source>
+        <translation>Vitajte v konzole Poolcoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1721,8 +1721,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a PlusCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte PlusCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a PoolCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte PoolCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1816,8 +1816,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid PlusCoin address</source>
-        <translation>UPOZORNENIE: Neplatná PlusCoin adresa</translation>
+        <source>WARNING: Invalid PoolCoin address</source>
+        <translation>UPOZORNENIE: Neplatná PoolCoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1890,8 +1890,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a PlusCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte PlusCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a PoolCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte PoolCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1951,8 +1951,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this PlusCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto PlusCoin adresu</translation>
+        <source>Sign the message to prove you own this PoolCoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto PoolCoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1983,8 +1983,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified PlusCoin address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou PlusCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified PoolCoin address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou PoolCoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1994,8 +1994,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a PlusCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte PlusCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a PoolCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte PoolCoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2004,8 +2004,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter PlusCoin signature</source>
-        <translation>Zadajte PlusCoin podpis</translation>
+        <source>Enter PoolCoin signature</source>
+        <translation>Zadajte PoolCoin podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2583,8 +2583,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>PlusCoin version</source>
-        <translation>Verzia PlusCoin</translation>
+        <source>PoolCoin version</source>
+        <translation>Verzia PoolCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2593,8 +2593,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or pluscoind</source>
-        <translation>Pošli príkaz na -server alebo pluscoind</translation>
+        <source>Send command to -server or poolcoind</source>
+        <translation>Pošli príkaz na -server alebo poolcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2613,13 +2613,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: pluscoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: pluscoin.conf)</translation>
+        <source>Specify configuration file (default: poolcoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: poolcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: pluscoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: pluscoind.pid)</translation>
+        <source>Specify pid file (default: poolcoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: poolcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2636,24 +2636,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pluscoinrpc
+rpcuser=poolcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;PlusCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;PoolCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=pluscoinrpc
+rpcuser=poolcoinrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;PlusCoin upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;PoolCoin upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2753,8 +2753,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;PlusCoin upozornenie&quot; admi
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PlusCoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny PlusCoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PoolCoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny PoolCoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3048,8 +3048,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;PlusCoin upozornenie&quot; admi
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. PlusCoin is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. PlusCoin sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. PoolCoin is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. PoolCoin sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3103,13 +3103,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;PlusCoin upozornenie&quot; admi
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of PlusCoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu PlusCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PoolCoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu PoolCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart PlusCoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte PlusCoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart PoolCoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte PoolCoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3168,8 +3168,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;PlusCoin upozornenie&quot; admi
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. PlusCoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. PlusCoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. PoolCoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. PoolCoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3198,8 +3198,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;PlusCoin upozornenie&quot; admi
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. PlusCoin is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. PlusCoin je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. PoolCoin is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. PoolCoin je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

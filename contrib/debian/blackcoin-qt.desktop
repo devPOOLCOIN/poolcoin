@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=PlusCoin
-Comment=PlusCoin P2P Cryptocurrency
-Comment[fr]=PlusCoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=PlusCoin, eşten eşe kriptografik sanal para birimi
-Exec=/usr/bin/pluscoin-qt
+Name=PoolCoin
+Comment=PoolCoin P2P Cryptocurrency
+Comment[fr]=PoolCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=PoolCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/poolcoin-qt
 Terminal=false
 Type=Application
 Icon=/usr/share/pixmaps/bitcoin80.xpm
-MimeType=x-scheme-handler/pluscoin;
+MimeType=x-scheme-handler/poolcoin;
 Categories=Office;

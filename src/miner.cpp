@@ -482,7 +482,7 @@ void ThreadStakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("pluscoin-miner");
+    RenameThread("poolcoin-miner");
 
     CReserveKey reservekey(pwallet);
 

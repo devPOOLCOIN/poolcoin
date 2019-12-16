@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "pluscoin";
+    const char* pszModule = "poolcoin";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\PlusCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\PlusCoin
-    // Mac: ~/Library/Application Support/PlusCoin
-    // Unix: ~/.pluscoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\PoolCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\PoolCoin
+    // Mac: ~/Library/Application Support/PoolCoin
+    // Unix: ~/.poolcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "PlusCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "PoolCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "PlusCoin";
+    return pathRet / "PoolCoin";
 #else
     // Unix
-    return pathRet / ".pluscoin";
+    return pathRet / ".poolcoin";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "pluscoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "poolcoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1051,7 +1051,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "pluscoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "poolcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

@@ -1,6 +1,6 @@
 [Protocol]
-exec=pluscoin-qt '%u'
-protocol=pluscoin
+exec=poolcoin-qt '%u'
+protocol=poolcoin
 input=none
 output=none
 helper=true

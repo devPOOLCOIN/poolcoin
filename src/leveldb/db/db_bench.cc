@@ -380,7 +380,7 @@ class Benchmark {
       }
       fclose(cpuinfo);
       fprintf(stderr, "CPU:        %d * %s\n", num_cpus, cpu_type.c_str());
-      fprintf(stderr, "CPUCache:   %s\n", cache_size.c_str());
+      fprintf(stderr, "CPOOLache:   %s\n", cache_size.c_str());
     }
 #endif
   }

@@ -4,13 +4,13 @@ set -e
 
 umask 077
 
-basedir=~/.pluscoin
+basedir=~/.poolcoin
 dbfile="$basedir/DB_CONFIG"
-cfgfile="$basedir/pluscoin.conf"
+cfgfile="$basedir/poolcoin.conf"
 
 [ -e "$basedir" ] || mkdir "$basedir"
 
-# Pluscoin does not clean up DB log files by default
+# Poolcoin does not clean up DB log files by default
 [ -e "$dbfile" ] || echo 'set_flags DB_LOG_AUTOREMOVE' > "$dbfile"
 
-exec /usr/lib/pluscoin/pluscoin-qt "$@"
+exec /usr/lib/poolcoin/poolcoin-qt "$@"

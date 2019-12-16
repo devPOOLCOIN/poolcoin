@@ -5,29 +5,29 @@
 #build/bitcoind::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bitcoin)
 
-DEB_INSTALL_EXAMPLES_pluscoind += debian/examples/*
-DEB_INSTALL_MANPAGES_pluscoind += debian/manpages/*
+DEB_INSTALL_EXAMPLES_poolcoind += debian/examples/*
+DEB_INSTALL_MANPAGES_poolcoind += debian/manpages/*
 
 %:
 	dh --with bash-completion $@
 
 override_dh_auto_build:
-	cd src; $(MAKE) -f makefile.unix pluscoind
+	cd src; $(MAKE) -f makefile.unix poolcoind
 	$(MAKE)
 
 override_dh_auto_clean:
-	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f pluscoin-qt; fi
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f poolcoin-qt; fi
 	cd src; $(MAKE) -f makefile.unix clean
 
 override_dh_auto_configure:
-	qmake pluscoin-qt.pro USE_QRCODE=1
+	qmake poolcoin-qt.pro USE_QRCODE=1
 
 override_dh_auto_test:
-	cd src; $(MAKE) -f makefile.unix test_pluscoin
-	src/test_pluscoin
+	cd src; $(MAKE) -f makefile.unix test_poolcoin
+	src/test_poolcoin
 
 # Ensure wrapper is set executable
-binary-post-install/pluscoind:
-	chmod +x $(cdbs_curdestdir)usr/bin/pluscoind
-binary-post-install/pluscoin-qt:
-	chmod +x $(cdbs_curdestdir)usr/bin/pluscoin-qt
+binary-post-install/poolcoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/poolcoind
+binary-post-install/poolcoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/poolcoin-qt
