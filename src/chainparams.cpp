@@ -52,7 +52,7 @@ public:
         pchMessageStart[1] = 0x35;
         pchMessageStart[2] = 0x22;
         pchMessageStart[3] = 0x05;
-        vAlertPubKey = ParseHex("0246bce1bac0d543f104cbff2bd23680056a3b9ea05e1137d2ff90eeb5e08472eb500322593a2cb06fbf8297d7beb6cd30cb90f98153b5b7cce1493749e41e0284");
+        vAlertPubKey = ParseHex("0642bce1bac0d543f104cbff2bd23680056a3b9ea05e1137d2ff90eeb5e08472eb500322593a2cb06fbf8297d7beb6cd30cb90f98153b5b7cce1493749e41e0284");
         nDefaultPort = 15777;
         nRPCPort = 15778;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
@@ -65,60 +65,31 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "Raised of POOLCOIN on 01 Dec 2019";
+        const char* pszTimestamp = "Raised of POOLCOIN on 01 Dec 2019 YEAH";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1576422554, vin, vout, 0);
+        CTransaction txNew(1, 1576559437, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1576422554;
+        genesis.nTime    = 1576559437;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 295769;
+        genesis.nNonce   = 202562;
 		
 		
 		
-		// If genesis block hash does not match, then generate new genesis hash.
-    // if (true && genesis.GetHash() != hashGenesisBlock)
-    // {
-        // printf("Searching for genesis block...\n");
-        // This will figure out a valid hash and Nonce if you're
-        // creating a different genesis block:
-        // uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        // uint256 thash;
-
-        // while(true)
-        // {
-            // thash = scrypt_blockhash(BEGIN(genesis.nVersion));
-            // if (thash <= hashTarget)
-                // break;
-            // if ((genesis.nNonce & 0xFFF) == 0)
-            // {
-                // printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-            // }
-            // ++genesis.nNonce;
-            // if (genesis.nNonce == 0)
-            // {
-                // printf("NONCE WRAPPED, incrementing time\n");
-                // ++genesis.nTime;
-            // }
-        // }
-        // printf("block.nTime = %u \n", genesis.nTime);
-        // printf("block.nNonce = %u \n", genesis.nNonce);
-        // printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        // printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        // }
+		
 
         
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000065bfa69b5fcf87f317cd551a60403bc57c24126d0a31ab52d2267d31746"));
-        assert(genesis.hashMerkleRoot == uint256("0xba55dd55e619e78e509fa532978d37ac6fe8098dd728e447039a657c55a16de0"));
+        assert(hashGenesisBlock == uint256("0x00000058963c6fd92f8480f7460f813f03c09348516741cf10fa95c395fca791"));
+        assert(genesis.hashMerkleRoot == uint256("0x2312ad80442a0124eb5bec3dfeca6318fe3003486c94b4c81c3320f3a196ab87"));
 
         vSeeds.push_back(CDNSSeedData("142.93.59.46", "142.93.59.46"));
         vSeeds.push_back(CDNSSeedData("159.65.94.197", "159.65.94.197"));
@@ -131,7 +102,7 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        nLastPOWBlock = 2000;
+        nLastPOWBlock = 1000;
     }
 
     virtual const CBlock& GenesisBlock() const { return genesis; }
@@ -169,14 +140,14 @@ public:
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 63670;
+        genesis.nNonce = 99933;
 		
 		
 		
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00002ca3848bf1609c1abc6b0ffb42b47ed92e3a08ef1ccc5ecb182a2fcb983b"));
-        assert(genesis.hashMerkleRoot == uint256("0xba55dd55e619e78e509fa532978d37ac6fe8098dd728e447039a657c55a16de0"));
+        assert(hashGenesisBlock == uint256("0x00000ea3533a861d661e9e4a5f6aa5499f7632c5dd52afb665cbb0083fee18c7"));
+        assert(genesis.hashMerkleRoot == uint256("0x2312ad80442a0124eb5bec3dfeca6318fe3003486c94b4c81c3320f3a196ab87"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -207,9 +178,9 @@ public:
         pchMessageStart[2] = 0xb5;
         pchMessageStart[3] = 0xda;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime = 1576422554;
+        genesis.nTime = 1576559437;
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 3;
+        genesis.nNonce = 0;
 		
 		
 		
@@ -220,8 +191,8 @@ public:
 		
 		
 		
-        assert(hashGenesisBlock == uint256("0x37f816de0f535b124307d0b14a8b911a6b2459ac68b7980565444f188a4d4a6f"));
-        assert(genesis.hashMerkleRoot == uint256("0xba55dd55e619e78e509fa532978d37ac6fe8098dd728e447039a657c55a16de0"));
+        assert(hashGenesisBlock == uint256("0x230ff93ded374b2096d5e9c088bb92cb865b96b5b6ee00c784ee5c67c6aad579"));
+        assert(genesis.hashMerkleRoot == uint256("0x2312ad80442a0124eb5bec3dfeca6318fe3003486c94b4c81c3320f3a196ab87"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
